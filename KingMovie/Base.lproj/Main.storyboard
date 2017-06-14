@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4Wc-gV-uAN">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--主界面-->
+        <scene sceneID="9HH-qw-wqK">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ro9-Z8-eod" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="03a-1O-eKV" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="主界面" id="0mO-id-Z19"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="-10" y="74"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QFy-he-jYb">
+            <objects>
+                <navigationController id="4Wc-gV-uAN" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="o5N-rT-7gh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="03a-1O-eKV" kind="relationship" relationship="rootViewController" id="b4w-a6-Aru"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mK0-oO-u5r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1364" y="-18"/>
+        </scene>
+    </scenes>
+</document>
